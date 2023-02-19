@@ -1,0 +1,6 @@
+Definiçoes: 
+ - uma rede social aberta a todos
+ - no maximo 40 pessoas usando por vez
+ - possivel postar fotos e textos
+ - possivel fazer comentarios
+ - 
