@@ -19,13 +19,11 @@ app.post('/checar/:tipo', URLencodesParser, function(req, res){
 		console.log("login")
 	}
 	if(req.params.tipo=="cadastro"){
-		Nusuario.create({
-			nome:req.body.nome,
-			senha: req.body.senha,
-			idade:parseInt(req.body.idade)
-		})
-
-		console.log(req.body.nome+", "+req.body.senha+", "+req.body.idade)
+		if(req.body.nome!="" && req.body.idade!="" && req.body.senha!="" && req.body.username!=""){
+			console.log('Nao esta vazio')
+		}else{
+			
+		}
 	}
 })
 
